@@ -4,7 +4,7 @@ import { MdHome } from "react-icons/md";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full flex py-[20px] items-center justify-center ">
+      <div className="w-full flex py-[20px] items-center justify-center bg-[#dfdfdf] ">
         <nav className="w-[70%] shadow-md bg-purple-100 justify-between text-[1.2rem]  text-purple-900  rounded-md px-[20px] flex  h-[3.5rem]">
           <div className=" w-[30%]   flex flex-row items-center  font-semibold">
             <span>
