@@ -1,9 +1,10 @@
 import { useState } from "react";
 import img from "../Utils/HeroImage.png";
 import Marquee from "react-fast-marquee";
+import { useNavigate } from "react-router";
 const Home = () => {
   const [date] = useState(new Date().toLocaleDateString());
-
+  const navigate = useNavigate();
   return (
     <>
       <div className="w-full flex flex-row  bg-[#dfdfdf]   p-[0px_50px_0px_200px]  transition-all max-2md:p-[0px_50px_0px_100px] max-lg:p-[0px_50px_0px_50px] max-mTab:flex-col max-mTab:p-[0px] max-mTab:justify-center max-mTab:items-center max-mTab:pt-[50px] ">
@@ -27,6 +28,7 @@ const Home = () => {
             <button
               className="shadow-lg text-[1.2rem] w-[10rem] p-[0px_30px] font-light rounded bg-purple-950 text-white
             max-maxMobile:w-[7rem] max-maxMobile:p-[0px_20px] "
+            onClick={()=>navigate("/pets")}
             >
               See Pets
             </button>
