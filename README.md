@@ -19,7 +19,7 @@ Welcome to the Pet-App! This application helps users find pets based on specific
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/pet-app.git
+  git@github.com:adnan-2313/Pet-App.git
    ```
 2. **Navigate to the project directory:**
    ```bash
