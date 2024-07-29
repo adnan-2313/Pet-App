@@ -13,13 +13,14 @@ Welcome to the Pet-App! This application helps users find pets based on specific
 
 - **Frontend**: React.js, CSS, HTML
 - **Styling**: TailwindCSS
+- **State Management**: Redux
 - **API**: External pet search API
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-  git@github.com:adnan-2313/Pet-App.git
+   git@github.com:adnan-2313/Pet-App.git
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -41,3 +42,5 @@ Welcome to the Pet-App! This application helps users find pets based on specific
    http://localhost:3000
    ```
 
+
+Thank you for using Pet-App!
